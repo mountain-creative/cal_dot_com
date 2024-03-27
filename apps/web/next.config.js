@@ -541,7 +541,7 @@ const nextConfig = {
       // Safer to enable the redirect only when the user is opting to test out organizations
       isOrganizationsEnabled &&
       // Prevent infinite redirect by checking that we aren't already on localhost
-      process.env.NEXT_PUBLIC_WEBAPP_URL !== "https://cal-dot-com-ai.vercel.app"
+      process.env.NEXT_PUBLIC_WEBAPP_URL !== "http://localhost:3000"
         ? [
             {
               has: [

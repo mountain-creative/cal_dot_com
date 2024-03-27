@@ -25,7 +25,7 @@ export const testBothFutureAndLegacyRoutes = {
               {
                 name: "x-calcom-future-routes-override",
                 value: "1",
-                url: "https://cal-dot-com-ai.vercel.app",
+                url: "http://localhost:3000",
               },
             ]);
           });

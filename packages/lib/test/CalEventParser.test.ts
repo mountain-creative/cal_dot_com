@@ -10,7 +10,7 @@ import {
 import { buildCalendarEvent, buildVideoCallData } from "./builder";
 
 vi.mock("@calcom/lib/constants", () => ({
-  WEBAPP_URL: "https://cal-dot-com-ai.vercel.app",
+  WEBAPP_URL: "http://localhost:3000",
   APP_NAME: "Cal.com",
 }));
 

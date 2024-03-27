@@ -887,7 +887,7 @@ export const TestData = {
         expiry_date: Infinity,
         client_id: "client_id",
         client_secret: "client_secret",
-        redirect_uris: ["https://cal-dot-com-ai.vercel.app/auth/callback"],
+        redirect_uris: ["http://localhost:3000/auth/callback"],
       },
     },
     "daily-video": {
@@ -900,7 +900,7 @@ export const TestData = {
         scale_plan: "false",
         client_id: "client_id",
         client_secret: "client_secret",
-        redirect_uris: ["https://cal-dot-com-ai.vercel.app/auth/callback"],
+        redirect_uris: ["http://localhost:3000/auth/callback"],
       },
     },
     zoomvideo: {
@@ -913,7 +913,7 @@ export const TestData = {
         scale_plan: "false",
         client_id: "client_id",
         client_secret: "client_secret",
-        redirect_uris: ["https://cal-dot-com-ai.vercel.app/auth/callback"],
+        redirect_uris: ["http://localhost:3000/auth/callback"],
       },
     },
     "stripe-payment": {
@@ -926,7 +926,7 @@ export const TestData = {
         scale_plan: "false",
         client_id: "client_id",
         client_secret: "client_secret",
-        redirect_uris: ["https://cal-dot-com-ai.vercel.app/auth/callback"],
+        redirect_uris: ["http://localhost:3000/auth/callback"],
       },
     },
   },

@@ -20,7 +20,7 @@ import {
 
 vi.mock("@calcom/lib/constants", () => ({
   IS_PRODUCTION: true,
-  WEBAPP_URL: "https://cal-dot-com-ai.vercel.app",
+  WEBAPP_URL: "http://localhost:3000",
   RESERVED_SUBDOMAINS: ["auth", "docs"],
 }));
 
@@ -142,7 +142,7 @@ const TestData = {
         expiry_date: Infinity,
         client_id: "client_id",
         client_secret: "client_secret",
-        redirect_uris: ["https://cal-dot-com-ai.vercel.app/auth/callback"],
+        redirect_uris: ["http://localhost:3000/auth/callback"],
       },
     },
   },

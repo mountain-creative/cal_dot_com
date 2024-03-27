@@ -52,7 +52,7 @@ function App() {
         There is <code>Cal</code> component below me
       </h1>
       <Cal
-        calOrigin="https://cal-dot-com-ai.vercel.app"
+        calOrigin="http://localhost:3000"
         embedJsUrl="//localhost:3000/embed/embed.js"
         style={{ width: "100%", height: "100%", overflow: "scroll" }}
         calLink="pro"

@@ -62,7 +62,7 @@ describe("Tests for Card component", () => {
         description={description}
         variant="basic"
         learnMore={{
-          href: "https://cal-dot-com-ai.vercel.app/",
+          href: "http://localhost:3000/",
           text: "Learn More",
         }}
         actionButton={{ child: "Button" }}
@@ -73,7 +73,7 @@ describe("Tests for Card component", () => {
 
     fireEvent.click(linkElement);
 
-    expect(window.location.href).toBe("https://cal-dot-com-ai.vercel.app/");
+    expect(window.location.href).toBe("http://localhost:3000/");
   });
 
   test("Should render card with SidebarCard variant and learn more link", () => {
