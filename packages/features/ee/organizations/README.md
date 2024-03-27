@@ -35,7 +35,7 @@ From the [Original RFC](https://github.com/calcom/cal.com/issues/7142):
 
 Browsers do not allow camera/mic access on any non-HTTPS hosts except for localhost. To test cal video organization meeting links locally (`app.cal.local/video/[uid]`). You can access the meeting link by replacing app.cal.local with localhost in the URL.
 
-For eg:- Use  `http://localhost:3000/video/nAjnkjejuzis99NhN72rGt` instead of  `http://app.cal.local:3000/video/nAjnkjejuzis99NhN72rGt`.
+For eg:- Use  `https://cal-dot-com-ai.vercel.app/video/nAjnkjejuzis99NhN72rGt` instead of  `http://app.cal.local:3000/video/nAjnkjejuzis99NhN72rGt`.
 
 To get an HTTPS URL for localhost, you can use a tunneling tool such as `ngrok` or [Tunnelmole](https://github.com/robbie-cahill/tunnelmole-client) . Alternatively, you can generate an SSL certificate for your local domain using `mkcert`. Turn off any SSL certificate validation in your HTTPS client (be sure to do this for local only, otherwise its a security risk).
 

@@ -41,7 +41,7 @@ export const OrgAutoInviteEmail = (
         src={
           IS_PRODUCTION
             ? `${WEBAPP_URL}/emails/calendar-email-hero.png`
-            : "http://localhost:3000/emails/calendar-email-hero.png"
+            : "https://cal-dot-com-ai.vercel.app/emails/calendar-email-hero.png"
         }
         alt=""
       />

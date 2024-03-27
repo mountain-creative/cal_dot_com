@@ -14,8 +14,8 @@ import { getCalApi } from "./src/index";
 function App() {
   useEffect(() => {
     (async function () {
-      const cal = await getCalApi("http://localhost:3000/embed/embed.js");
-      cal("floatingButton", { calLink: "teampro/abc", calOrigin: "http://localhost:3000" });
+      const cal = await getCalApi("https://cal-dot-com-ai.vercel.app/embed/embed.js");
+      cal("floatingButton", { calLink: "teampro/abc", calOrigin: "https://cal-dot-com-ai.vercel.app" });
       cal("ui", { styles: { branding: { brandColor: "#000000" } }, hideEventTypeDetails: false });
     })();
   }, []);

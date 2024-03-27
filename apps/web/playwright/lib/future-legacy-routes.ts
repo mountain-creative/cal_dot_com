@@ -22,7 +22,11 @@ export const testBothFutureAndLegacyRoutes = {
         if (routeVariant === "future") {
           test.beforeEach(({ context }) => {
             context.addCookies([
-              { name: "x-calcom-future-routes-override", value: "1", url: "http://localhost:3000" },
+              {
+                name: "x-calcom-future-routes-override",
+                value: "1",
+                url: "https://cal-dot-com-ai.vercel.app",
+              },
             ]);
           });
         }

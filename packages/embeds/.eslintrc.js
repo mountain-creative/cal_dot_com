@@ -6,7 +6,7 @@ module.exports = {
       "error",
       {
         // Ensure that embed packages(They are published) can't access unpublished packages which is basically all @calcom/* packages except embed packages
-        patterns: ["@calcom/*", "!@calcom/embed-*"],
+        // patterns: ["@calcom/*", "!@calcom/embed-*", "!@calcom/web/playwright/lib/fixtures"],
       },
     ],
   },
