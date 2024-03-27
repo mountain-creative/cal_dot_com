@@ -35,6 +35,7 @@ export interface Fixtures {
   eventTypePage: ReturnType<typeof createEventTypeFixture>;
   appsPage: ReturnType<typeof createAppsFixture>;
 }
+console.log("just for commit");
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
